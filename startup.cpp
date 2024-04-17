@@ -20,6 +20,7 @@ private:
     haystack_ = new char[haystack_len];
     stream.read(haystack_, haystack_len);
     current = haystack_;
+    //good
     end = current + haystack_len;
   }
 
