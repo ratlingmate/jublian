@@ -4,6 +4,7 @@ private:
   size_t haystack_len;
   uint8_t shift[256];
   uint8_t jump_;
+//yes
   std::vector<uint8_t> needle_;
   std::vector<uint8_t> needle_ic_;
   char *haystack_ = nullptr;
